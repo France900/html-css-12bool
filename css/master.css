@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+[class*="col-"] {
+  height: 200px;
+  background-color: lightsalmon;
+  border: 1px solid black;
+}
+
+.content {
+  background-color: salmon;
+  border: 1px solid white;
+  height: 190px;
+  /* width: calc(100%-500px);
+  margin: auto; */
+}
+
+/* footer [class*="col-"] {
+  height: 50px;
+  width: 100%-8px;
+  margin: auto;
+} */
