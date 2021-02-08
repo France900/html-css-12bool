@@ -8,20 +8,15 @@
 .content {
   background-color: salmon;
   border: 1px solid white;
-  /* height: 190px; */
-  /* width: calc(100%-500px);
-  margin: auto; */
+  height: 190px;
 }
 
-footer.row
+footer > div {
+  padding: 5px;
+}
 
-/* footer [class*="col-"] {
-  height: 50px;
-  width: 100%-8px;
-  margin: auto;
-} */
 
-span {
+[class*="col-"] > span {
   position: absolute;
   top:50%;
   left: 50%;
